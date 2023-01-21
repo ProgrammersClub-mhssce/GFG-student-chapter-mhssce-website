@@ -1,5 +1,9 @@
 console.log("hello");
-var loader = document.getElementsByClassName("preloader");
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function () {
+  loader.style.display = "none";
+});
+var loader = document.getElementById("preloader2");
 window.addEventListener("load", function () {
   loader.style.display = "none";
 });
