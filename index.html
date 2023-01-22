@@ -190,11 +190,11 @@
 
       <!-- Newsletter -->
       <div class="">
-        <section class="p-4 rounded" style="background-color: #000000">
+        <section class="p-3" style="background-color: #000000">
           <div class="row">
             <div class="col-md-3 p-0">
               <div
-                class="rounded-side p-3 rounded-pill text-center badge-success justify-item-center"
+                class="rounded-side p-2 rounded-pill text-center badge-success justify-item-center"
               >
                 <p class="announcement lead font-weight-bold text-dark my-auto">
                   Announcements
@@ -259,43 +259,30 @@
         >
           Latest Events
         </h2>
-
-        
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <!-- <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol> -->
-          <div class="carousel-inner text-center">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
             <div class="carousel-item active">
-              <a href="https://programmersclub-mhssce.github.io/Error_404_5.0/index.html" class="nav-link">
-              <img class="d-block w-100 img-fluid" src="https://i2.lensdump.com/i/RyONqc.png" alt="Second slide" style="min-height: 150px;max-height:460px;">
-            </a>
+              <a href="https://programmersclub-mhssce.github.io/Error_404_5.0/index.html" class="nav-link" target="_blank">
+                <img class="d-block w-100 img-fluid" src="https://i2.lensdump.com/i/RyONqc.png" alt="Second slide" style="min-height: 200px;max-height:450px;">
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="codefeast.html"  target="_blank" class="nav-link"> <img class="d-block w-100 text-center img-fluid" src="https://i2.lensdump.com/i/RyOxp9.png" alt="First slide"  style="min-height: 200px;max-height:450px;"> </a>
              
             </div>
-            <div class="carousel-item  ">
-              <a href="codefeast.html"  target="_blank" class="nav-link"> <img class="d-block w-100 text-center img-fluid" src="https://i2.lensdump.com/i/RyOxp9.png" alt="First slide"> </a>
-             
-              
-            </div>
-           
-            <!-- <div class="carousel-item">
-              <a href="norecord.html" class="nav-link">
-              <img class="d-block w-100" src="/static/images/workshop.png" alt="Third slide">
-            </a>
-              
-            </div> -->
+          
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
+        
+      
         <div class="text-center">
           <a href="eventslist.html"
           class="btn mt-3 px-5 mb-3 btn-md btn-success rounded-pill"
