@@ -444,8 +444,23 @@ p{
   background-position-x: center;
   background-repeat: no-repeat;
   }
+ 
 }
-
+@media only screen and (min-width: 600px) {
+  .gfgimg{
+    width: 300px !important;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .gfgimg{
+    width: 500px !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .gfgimg{
+    width: 660px !important;
+  }
+}
 
 
 .blink_me {
