@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Codefeast - 2022</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -50,27 +51,30 @@
     />
   </head>
   <body>
-    <div class="preloader2"></div>
-    <a href="index.html" class="nav-link">
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div>
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-3">
             <img
-              class="img-fluid d-none d-sm-block"
+              class="img-fluid  d-none d-sm-block"
               src="https://i.lensdump.com/i/RyOpf0.jpeg"
-              style="width: 100px"
+              style="width: 100px;"
               alt=""
             />
           </div>
           <div class="col-sm-6 text-center my-auto">
             <div class="">
+  
               <img
-                class="img-fluid ml-3"
-                src="https://i2.lensdump.com/i/RyOOjD.png"
-                style="width: 170px"
-                alt=""
-              />
-
+              class="img-fluid ml-3"
+              src="https://i2.lensdump.com/i/RyOOjD.png"
+              style="width: 170px;"
+              alt=""
+            />
+  
+  
               <!-- <p
                 class="h2 font-weight-bold"
                 style="color: #308d46; "
@@ -79,24 +83,23 @@
               </p>-->
               <p
                 class="mhssce my-2 font-weight-bold"
-                style="color: #1f7007; font-size: 1rem"
+                style="color: #1f7007; font-size: 1rem;"
               >
-                M.H. Saboo Siddik College Of Engieering
-              </p>
+                M.H. Saboo Siddik College Of Engieering 
+              </p> 
             </div>
           </div>
           <div class="col-sm-3" style="position: relative">
             <img
-              class="img-fluid ml-3 mt-1 d-none d-sm-block"
+              class="img-fluid  ml-3 mt-1 d-none d-sm-block"
               src="https://i1.lensdump.com/i/RyOHqq.png"
-              style="position: absolute; right: 1%; top: 1%; width: 85px"
+              style="position: absolute; right: 1% ;top:1% ;width: 85px;"
               alt=""
             />
           </div>
         </div>
       </div>
-    </a>
-    <nav class="navbar navbar-dark sticky-top navbar-expand-lg mt-3">
+    <nav class="navbar navbar-dark sticky-top navbar-expand-lg">
       <!-- <a class="navbar-brand fs-1" href="/" style ="font-size: 30px; padding: 0%;"><img src="/static/images/ShabdKoshLogo01.png" style="width:170px; height:95px;"></a> -->
       <a class="navbar-brand" href="/">
         <!-- <img src="/static/images/logo4.png" style="width: 90px" /> -->
@@ -284,6 +287,13 @@
       </div>
     </footer>
   </body>
+  <!-- Loader Script -->
+  <script>
+    console.log("running");
+    window.addEventListener('load', function() {
+        document.querySelector("#preloader").style.display = "none";
+    });
+  </script>
   <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
