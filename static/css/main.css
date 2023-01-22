@@ -473,7 +473,7 @@ p{
   position: absolute;
   left: 50%;
   top: 50%;
-  background-image: url(/static/images/gfgloader.gif);
+  background-image: url("../images/gfgloader.gif");
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
